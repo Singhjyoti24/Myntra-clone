@@ -1,0 +1,39 @@
+.navbar,
+.list-items,
+.nav-list {
+    display: flex;
+}
+
+.navbar {
+    height: 2%;
+}
+
+.list-items img {
+    width: 8%;
+}
+
+.nav-list {
+    background-color: #ffffff;
+    width: 80%;
+    padding-top: 1.5%;
+}
+
+.list-items {
+    list-style: none;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: small;
+}
+
+.list-items li a {
+    text-decoration: none;
+    list-style: none;
+    color: #282c3f;
+    cursor: pointer;
+}
+
+.side-list {
+    width: 20%;
+    padding-top: 1.5%;
+}

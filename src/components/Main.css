@@ -1,0 +1,43 @@
+.fashionfest {
+    background-color: #eeeeee;
+    padding: 1% 1% 1% 1%;
+}
+
+.offer {
+    background-color: #7f0235;
+}
+
+.fashionfest img {
+    width: 100%;
+}
+
+.offer img {
+    width: 100%;
+}
+
+.crazy-offer {
+    padding: 2em 20em 2em 30em;
+}
+
+.first {
+    font-size: xx-large;
+    color: #faba4e;
+}
+
+.second {
+    color: white;
+    padding-left: 5em;
+}
+
+span {
+    color: #442c04;
+    font-weight: bold;
+}
+
+.festive-offer {
+    display: flex;
+}
+
+.download img{
+    width: 100%;
+}

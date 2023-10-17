@@ -1,0 +1,37 @@
+.flip-image img {
+    width: 100%;
+}
+
+.flip {
+    position: relative;
+    height: 20em;
+    width: 13em;
+}
+
+.flip-info {
+    justify-content: center;
+    display: flex;
+}
+
+.flipinfobox {
+    color: #442c04;
+    background-image: linear-gradient(#d0a566, #ffe482, #d0a566);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wishlist,
+.addBag {
+    cursor: pointer;
+}
+
+.wishlist:active {
+    color: white;
+}
+
+.addBag:active {
+    color: white;
+}

@@ -1,0 +1,7 @@
+.footer {
+    padding: 0.5em 0em 0.5em 0em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+}

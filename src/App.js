@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import { useState } from 'react';
 
 function App() {
+  const [wishCount, setWishCount] = useState(0)
+  const [addCount, setAddCount] = useState(0)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar wishCount={wishCount} addCount={addCount} />
+      <Main wishCount={wishCount} setWishCount={setWishCount} addCount={addCount} setAddCount={setAddCount} />
     </div>
   );
 }

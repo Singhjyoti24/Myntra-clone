@@ -1,0 +1,18 @@
+.card-image img {
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    height: 20em;
+    width: 13em;
+    border: 2px solid goldenrod;
+    border-style: dotted;
+}
+
+.card-info {
+    color: #442C04;
+    background-image: linear-gradient(#d0a566, #ffe482, #d0a566);
+    justify-content: center;
+    display: flex;
+}
