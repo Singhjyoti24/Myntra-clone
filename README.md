@@ -28,7 +28,7 @@
 
 
 # Technologies Used
-The Chatting Application is built using the following technologies:
+Myntra Clone is built using the following technologies:
 
 Front-end:
 1. CSS3
